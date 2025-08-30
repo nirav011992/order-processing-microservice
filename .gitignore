@@ -1,0 +1,189 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.claude/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+tmp/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependencies
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Environment configuration files (except examples)
+configs/*.env
+configs/production.env
+configs/staging.env
+!configs/local.env
+
+# Docker volumes and cache
+docker-volume-data/
+.dockerignore
+
+# Build artifacts
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Database
+*.db
+*.sqlite3
+
+# Application specific
+producer
+consumer
+status-api
+!cmd/producer/
+!cmd/consumer/
+!cmd/status-api/
+
+# Testing
+testdata/
+coverage.html
+coverage.txt
+*.cover
+*.prof
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Local development
+.local/
+local/
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Kubernetes secrets
+*secret*.yaml
+*Secret*.yaml
+
+# Helm charts dependencies
+charts/*/charts/
+charts/*/requirements.lock
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Local configuration overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Performance and profiling
+*.pprof
+cpu.prof
+mem.prof
+trace.out
+
+# Git patches
+*.patch
+
+# Editor backups
+*.orig
+*.rej
+
+# macOS
+*.dSYM/
+
+# Windows
+*.manifest
+*.rc
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+site/
+
+# Local cache
+.cache/
+
+# Misc
+.DS_Store
+*.cache
