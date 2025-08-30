@@ -112,4 +112,4 @@ dev-teardown: ## Tear down development environment
 # Generate sample orders
 generate-orders: build ## Generate sample orders for testing
 	@echo "Generating sample orders..."
-	@./scripts/create_test_orders.sh
+	@echo "TODO: Implement create_test_orders.sh script"
